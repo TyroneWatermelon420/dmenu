@@ -25,4 +25,3 @@ index 27b7a30..7be0dc3 100644
  	lines = MAX(lines, 0);
  	mh = (lines + 1) * bh;
  #ifdef XINERAMA
-
