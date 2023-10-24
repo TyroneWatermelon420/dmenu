@@ -9,13 +9,13 @@ static int min_width = 500;                    /* minimum width when centered */
 static const int user_bh = 12;               /* add an defined amount of pixels to the bar height */
 
 static const char *fonts[] = {
-	"Hack Nerd Font Mono:size=11"
+	"Hack Nerd Font Mono:size=12"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { "#bbbbbb", "#222222" },
-	[SchemeSel] = { "#eeeeee", "#005577" },
+	[SchemeNorm] = { "#bbc2cf", "#282c34" },
+	[SchemeSel] = { "#51afef", "#1c1f24" },
 	[SchemeOut] = { "#000000", "#00ffff" },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
